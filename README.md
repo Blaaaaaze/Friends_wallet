@@ -4,5 +4,5 @@
 
 # Ссылка
 
-TBA
+https://friends-wallet.vercel.app/
 
