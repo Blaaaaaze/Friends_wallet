@@ -1,0 +1,31 @@
+.content-container {
+    display: flex;
+    height: 500px;
+    width: 80%;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.img-container .info-container{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.img-container img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+  }
+
+.info-container {
+    max-width: 480px;
+    font-size: 24px;
+}
+
+
+

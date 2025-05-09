@@ -1,0 +1,78 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 30px;
+  overflow: visible;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 350px;
+  border-radius: 30px;
+  border-width: 5px;
+  border: solid;
+  overflow: visible;
+}
+
+.btn {
+  margin-top: 5px;
+  outline: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 20%;
+  border: solid 2px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(55, 205, 255);
+  border-color: rgb(55, 205, 255);
+}
+
+.btn-del {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(202, 2, 2);
+  border-color: rgb(202, 2, 2);
+}
+
+.btn-edit {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(227, 198, 28);
+  border-color: rgb(227, 198, 28);
+}
+
+.btn-download {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(32, 88, 243);
+  border-color: rgb(32, 88, 243);
+}
+
+.base-input {
+  outline: none;
+  border-radius: 5px;
+  border-style: solid;
+  box-sizing: border-box;
+
+}
+
+.base-input:focus {
+  border-color: rgb(55, 205, 255);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}

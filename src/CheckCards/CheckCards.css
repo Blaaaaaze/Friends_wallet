@@ -1,0 +1,20 @@
+.result-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px 10px;
+}
+
+.person-summary {
+    background-color: rgb(208, 251, 208);
+    min-width: 20%;
+    border: 2px solid rgb(170, 255, 12);
+    border-radius: 10px;
+}
